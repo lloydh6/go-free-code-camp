@@ -1,12 +1,12 @@
-package primitives
+package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
-	n := 3.14
-	n = 13.7e72
-	n = 2.1E14
-	fmt.Printf("%v, %T\n", n, n)
+	a := 1 + 2i
+	b := 2 + 5.2i
+	fmt.Println(a + b)
+	fmt.Println(a - b)
+	fmt.Println(a * b)
+	fmt.Println(a / b)
 }
