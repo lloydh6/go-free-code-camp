@@ -3,6 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	r := 'a'
+	var r rune = 'a'
 	fmt.Printf("%v, %T\n", r, r)
 }
