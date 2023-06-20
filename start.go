@@ -3,6 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	var n complex128 = complex(5, 12)
-	fmt.Printf("%v, %T\n", n, n)
+	s := "this is a string"
+	fmt.Printf("%v, %T\n", s[2], s[2])
 }
