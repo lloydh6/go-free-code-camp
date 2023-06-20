@@ -4,6 +4,6 @@ import "fmt"
 
 func main() {
 	s := "this is a string"
-	s2 := "this is also a string"
-	fmt.Printf("%v, %T\n", s + s2, s + s2)
+	b := []byte(s)
+	fmt.Printf("%v, %T\n", b, b)
 }
