@@ -6,8 +6,8 @@ import (
 
 const (
 	a = iota
-	b = iota
-	c = iota
+	b
+	c
 )
 
 func main() {
