@@ -4,8 +4,14 @@ import (
 	"fmt"
 )
 
+const (
+	a = iota
+	b = iota
+	c = iota
+)
+
 func main() {
-	const a int = 14
-	var b int = 27
-	fmt.Printf("%v, %T\n", a + b, a)
+	fmt.Printf("%v, %T\n", a, a)
+	fmt.Printf("%v, %T\n", b, b)
+	fmt.Printf("%v, %T\n", c, c)
 }
