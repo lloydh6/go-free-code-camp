@@ -5,13 +5,12 @@ import (
 )
 
 const (
-	_ = iota
+	_ = iota + 5
 	catSpecialist
 	dogSpecialist
 	snakeSpecialist
 )
 
 func main() {
-	var specialistType int
-	fmt.Printf("%v\n", specialistType == catSpecialist)
+	fmt.Printf("%v\n", catSpecialist)
 }
