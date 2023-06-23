@@ -17,7 +17,7 @@ const (
 	
 )
 
-func main() {
+func constants() {
 	var roles byte = isAdmin | canSeeFinancials | canSeeEurope
 	fmt.Printf("%b\n", roles)
 	fmt.Printf("Is Admin? %v\n", isAdmin & roles == isAdmin)
