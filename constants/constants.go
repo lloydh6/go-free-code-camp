@@ -5,18 +5,19 @@ import (
 )
 
 const (
-	_ = iota
-	KB = 1 << (10 * iota)
-	MB
-	GB
-	TB
-	PB
-	EB
-	ZB
-	YB
+	isAdmin = iota
+	isHeadquarters
+	canSeeFinancials
+
+	canSeeAfrica
+	canSeeAsia
+	canSeeEurope
+	canSeeNorthAmerica
+	canSeeSouthAmerica
+	
 )
 
 func main() {
-	fileSize := 4000000000.
-	fmt.Printf("%.2fGB\n", fileSize/GB)
+	var roles byte = isAdmin | canSeeFinancials | canSeeEurope
+	fmt.Printf("%b\n", roles)
 }
