@@ -5,7 +5,7 @@ import (
 )
 
 const (
-	errorSpecialist = iota
+	_ = iota
 	catSpecialist
 	dogSpecialist
 	snakeSpecialist
