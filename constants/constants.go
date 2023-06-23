@@ -5,12 +5,18 @@ import (
 )
 
 const (
-	_ = iota + 5
-	catSpecialist
-	dogSpecialist
-	snakeSpecialist
+	_ = iota
+	KB = 1 << (10 * iota)
+	MB
+	GB
+	TB
+	PB
+	EB
+	ZB
+	YB
 )
 
 func main() {
-	fmt.Printf("%v\n", catSpecialist)
+	fileSize := 4000000000.
+	fmt.Printf("%.2fGB\n", fileSize/GB)
 }
