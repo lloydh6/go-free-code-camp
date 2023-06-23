@@ -1,10 +1,10 @@
-package main
+package primitives
 
 import (
 	"fmt"
 )
 
-func main() {
+func primitives() {
 	n := 3.14
 	n = 13.7e72
 	n = 2.1E14
