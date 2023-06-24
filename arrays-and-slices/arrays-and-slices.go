@@ -5,10 +5,6 @@ import (
 )
 
 func main() {
-	var students [3]string
-	fmt.Printf("Students: %v\n", students)
-	students[0] = "Lisa"
-	students[1] = "Ahmad"
-	students[2] = "Arnold"
-	fmt.Printf("Student #1: %v\n", students[1])
+	var identityMatrix [3][3]int = [3][3]int{[3]int{1, 0, 0}, [3]int{0, 1, 0}, [3]int{0, 0, 1}}
+	fmt.Println(identityMatrix)
 }
