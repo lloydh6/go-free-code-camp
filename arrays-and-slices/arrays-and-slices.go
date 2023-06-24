@@ -1,9 +1,10 @@
-package main 
+package main
 
 import (
 	"fmt"
 )
 
 func main() {
-	fmt.Println("Arrays and Slices")
+	grades := [3]int{97, 85, 93}
+	fmt.Printf("Grades: %v\n", grades)
 }
